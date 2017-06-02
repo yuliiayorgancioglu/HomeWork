@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        MyQueue myQueue = new MyQueue(4,4);
+        MyQueue myQueue = new MyQueue(4,5);
 
         myQueue.add(1);
         myQueue.add(2);
