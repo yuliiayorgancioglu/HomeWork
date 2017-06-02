@@ -1,4 +1,4 @@
-package yuliia.practice.module_1;
+package yuliia.practice.module_11;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -13,7 +13,7 @@ public class Array {
 
         ArrayList <Integer> arrayList = new ArrayList<Integer>();
 
-        for (int i = 1; i < 6; i++)
+        for (int i = 1; i < arrayList.size(); i++)
         {
             System.out.print("Enter number " + i + ": " );
             arrayList.add(Integer.parseInt(reader.readLine()));
