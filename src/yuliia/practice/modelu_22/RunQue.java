@@ -1,6 +1,6 @@
 package yuliia.practice.modelu_22;
 
-public class Main {
+public class RunQue {
 
     public static void main(String[] args) {
 
