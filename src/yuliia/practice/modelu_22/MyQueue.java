@@ -1,10 +1,6 @@
 package yuliia.practice.modelu_22;
 
-import com.sun.jmx.remote.internal.ArrayQueue;
-
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.LinkedList;
 
 public class MyQueue<E> extends ArrayList<E> {
 
