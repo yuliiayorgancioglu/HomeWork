@@ -4,6 +4,7 @@ package yuliia.practice.modelu_22;
 Every new element will be added to the end of the queue, if the capacity of the queue has been reached
 remove the first element it filled and shift the queue elements to the left */
 
+
 import java.util.ArrayList;
 
 public class MyQueue<E> extends ArrayList<E> {
@@ -24,3 +25,6 @@ public class MyQueue<E> extends ArrayList<E> {
         return true;
     }
 }
+
+
+
