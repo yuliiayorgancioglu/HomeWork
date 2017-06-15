@@ -11,6 +11,7 @@ public class RunQue {
         myQueue.add(3);
         myQueue.add(4);
         myQueue.add(9);
+        myQueue.add(1);
 
         System.out.println(myQueue);
     }
