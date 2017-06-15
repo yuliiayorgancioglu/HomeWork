@@ -14,7 +14,7 @@ public class RunQue {
 
         System.out.println("Initial queue:");
         System.out.println(myQueue);
-        myQueue.add(9);
+        myQueue.add(1);
         System.out.println("Rearranged queue when the capacity is reached :");
         System.out.println(myQueue);
 
