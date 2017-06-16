@@ -8,17 +8,20 @@ import java.util.ArrayList;
 
 public class MyQueue<E> extends ArrayList<E> {
 
-    private final int customSize;
+    private int defaultSize;
 
-    public MyQueue(int defaultSize, int customSize) {
-        super(defaultSize);
-        this.customSize = customSize;
+    public MyQueue (){
+        this.defaultSize = 16;
+    }
+
+    public MyQueue(int customSize) {
+        this.defaultSize = customSize;
     }
 
     @Override
     public boolean add(E e) {
         super.add(e);
-        while (size() > customSize) {
+        while (size() > defaultSize) {
             super.remove(0);
         }
         return true;
