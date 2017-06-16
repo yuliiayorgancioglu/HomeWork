@@ -23,7 +23,7 @@ public class RunQue {
             myQueue1.add(i*2);
         }
 
-        System.out.println("Queue with defaultSize =16 :");
+        System.out.println("Queue with defaultSize:");
         System.out.println(myQueue1);
 
     }
